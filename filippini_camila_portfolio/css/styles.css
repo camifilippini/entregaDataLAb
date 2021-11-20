@@ -1,0 +1,337 @@
+@font-face {
+    font-family: miFuente;
+    src: url(../font/CabinetGrotesk-Variable.ttf);
+    font-weight: 100 900;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-right: 2rem; 
+    }
+        
+
+header{
+    color: #2000E2; 
+}
+#header{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@keyframes animacion {
+        
+    0% {
+         background-image: url(../img/01imagenesAnimacion.png);   }
+    
+    10%{background-image: url(../img/02imagenesAnimacion.png)
+    }
+    20%{background-image: url(../img/03imagenesAnimacion.png)
+    }
+    30%{background-image: url(../img/04imagenesAnimacion.png)
+    }
+    40%{background-image: url(../img/05imagenesAnimacion.png)
+    }
+    50%{background-image: url(../img/06imagenesAnimacion.png)
+    }
+    60%{background-image: url(../img/07imagenesAnimacion.png)
+    }
+    70%{background-image: url(../img/08imagenesAnimacion.png)
+    }
+    80%{background-image: url(../img/09imagenesAnimacion.png)
+    }
+    
+    }
+header nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    
+}
+
+.botonFlecha{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+.navegacionTextTitulo{
+    font-size: 2.0rem;
+    font-family: miFuente;
+    font-weight: 700;
+  
+}
+.navegacionText{
+   
+    color: #2000E2; 
+    font-size: 1.5rem;
+
+}
+.navegacion{
+    font-family: 'Poppins', sans-serif;  
+
+   
+}
+
+.arrow{
+    height: 10rem;
+    margin: 0%;
+}
+.titulo{
+    font-family: miFuente; 
+    padding-top: 2rem; 
+}
+.hola{
+    font-size: 13rem;
+    font-weight: 700;
+}
+.subtitulo{
+    margin-bottom: 15rem;
+    
+}
+.subtituloText{
+    font-family: miFuente;
+    font-size: 5rem;
+    line-height: 4.5rem
+}
+.quienSoy{
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+.titulosText{
+    font-family: mifuente;
+    font-size: 5rem;
+    font-weight: 700;
+    color: #2000E2;
+}
+p{
+    font-size: 1.5rem;
+    color: #302E8F;
+    width: 80%;
+}
+.foto_mia{
+    width: 40%;
+       
+}
+.proyectos{
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+.proyectoTitulo{
+    font-family: miFuente;
+    font-size: 3rem ;
+    font-weight: 700;
+} 
+.proyectoText{
+    font-family: 'Poppins', sans-serif ;
+   
+}
+.habilidades{
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+li{
+    color: #302E8F;
+    list-style:none;
+    font-family: 'Poppins', sans-serif ;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+}
+.iconHabilidades{
+    padding-right: 1rem;
+    color: #FD5B7E;
+
+}
+
+
+
+h3{
+    font-family: miFuente;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #302E8F;
+}
+.hablemosForm{
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+.formulario{
+    color: #FD5B7E;
+    font-family: 'Poppins', sans-serif ;
+    font-size: 1.5rem;
+}
+.Contacto{
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+.contactoSubtitulos{
+    font-family: miFuente;
+    font-size: 2rem;
+    font-weight: 700;
+}
+a {
+    text-decoration: none
+}
+.redes{
+    padding: 0;
+   
+}
+@media (max-width: 576px){
+    body{
+        padding-left: 1rem;
+        padding-top: 0.5rem;
+        padding-right: 1rem;
+       
+    }
+    header nav{
+        padding: 1rem;
+        font-family: 'Poppins', sans-serif; 
+        font-size: 1rem;
+    }
+    .navegacionText{
+        font-size: 1rem;
+         color: #2000E2;
+    }
+    .botonFlecha{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        font-size: 1rem;
+     
+
+    
+    }
+    .arrow{
+        height: 2rem;
+        width: 2rem;
+        margin: 0%;
+        padding-left: 0.5rem;
+    }
+    .titulo{
+        font-family: miFuente; 
+        padding-top: 0.5rem; 
+    }
+    .hola{
+        font-size: 4rem;
+    }
+    .subtitulo{
+        margin-bottom: 1rem;
+    }
+    .subtituloText{
+        font-family: miFuente;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .titulosText{
+        font-family: mifuente;
+        font-size: 3rem;
+        font-weight: 700;
+        color: #2000E2;
+    }
+    .navegacionTextTitulo{
+        font-size: 1rem;
+        font-family: miFuente;
+        font-weight: 500;
+      
+    }
+    .texto01{
+        width: 100%;
+    }
+    .quienSoy{
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+    p{
+        font-size: 1rem;
+        color: #302E8F;
+        width: 100%;
+    }
+    .foto_mia{
+        height: 100%;
+        width: 100%;  
+    }
+    .proyectos{
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        flex-direction: column;
+    }
+    .proyectoTitulo{
+        font-family: miFuente;
+        font-size: 3rem ;
+        font-weight: 700;
+    } /*No me deja cambiar el tamaño del texto :(*/
+    .proyectoText{
+        font-family: 'Poppins', sans-serif ;
+       
+    }
+    .proyectos_img{
+        width: 100%;
+    }
+    .accordion{
+        width: 100%;
+    }
+    .habilidades{
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        flex-direction: column;
+    }
+    li{
+        color: #302E8F;
+        list-style:none;
+        font-family: 'Poppins', sans-serif ;
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        
+    }
+    .iconHabilidades{
+        padding-right: 0.5rem;
+        color: #FD5B7E;
+      
+    
+    }
+    .d{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+
+    }
+    
+    
+    
+    h3{
+        font-family: miFuente;
+        font-size: 3rem;
+        font-weight: 700;
+        color: #302E8F;
+    }
+    .hablemosForm{
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+    .formulario{
+        color: #FD5B7E;
+        font-family: 'Poppins', sans-serif ;
+        font-size: 1.5rem;
+    }
+    .Contacto{
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+    .contactoSubtitulos{
+        font-family: miFuente;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .mailPropio{
+        font-size: 1.5rem
+    }
+
+
+}

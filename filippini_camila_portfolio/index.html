@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Camila Filippini</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    
+
+    
+</head>
+<body>
+    <header id="header" class=" conteiner">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand navegacionTextTitulo ">Camila Filippini</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link navegacionText" href="#sobreMi">Sobre mi </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navegacionText" href="#proyectos">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navegacionText" href="#contacto">Contacto</a>
+                  </li>               
+              </ul>
+            </div>
+          </nav>
+        <div class="titulo row">
+            <h1 class="hola col-12">¡Hola! </h1>
+            <h1 class="hola col-10">Soy Cami</h1>
+           
+        </div>
+        <div class="subtitulo row  ">
+          <div class="subtituloText col-12 col-sm-6  justify-content-start">Bienvenido a mi portfolio de <strong> diseño</strong></div>
+            <h3 class="botonFlecha col-sm-6 col-6">¡Click aqui!<img onmouseover="animacion();" onmouseout="noanimacion();" class="arrow col-6 col-sm-1 " src="svg/arrow.svg" alt="Fecha hacia abajo"></h3>
+    
+        </div>  
+    </header>
+
+    <main class="conteiner">
+        <a name="sobreMi"><div class="quienSoy row">
+            <div class="texto01 col-12 col-sm-6">
+                <h2 class="titulosText" >¿Quién soy?</h2>
+                <p >Mi nombre es Camila Filippini, tengo 20 años y estoy actualmente estudiando la licenciatura en diseño en la Universidad Torcuato Di tella. Desde siempre me intereso la investigación y la experimentación manual y digital para la creación de conceptos traídos a la realidad. Además, me gusta mucho tomar <strong> café y dibujar </strong></p>
+            </div>
+            <img class="foto_mia col-6" src="img/imagenMia.png" alt="Foto mía">
+        </div></a>
+        <a name="proyectos"></a><div class="proyectos row">
+            <h2 class="titulosText col-12 col-sm-6" >Proyectos</h2>
+            <div class="accordion col-12 col-sm-6" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="proyectoTitulo accordion-header" id="panelsStayOpen-headingOne">
+                    <button class=" accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        La violencia de genero se disfraza
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="proyectoText accordion-body">
+                        <p>A través de un articulo periodístico interpretarlo, y generar una identidad/ concepto visual del mismo</p>
+                        <a href="https://www.behance.net/gallery/120597861/La-violencia-de-genero-se-disfraza">
+                            <img class="proyectos_img" src="img/proyecto01.png" alt="Link de behance a proyecto numero 01 sobre la violencia de genero">
+                        </a>
+                    </div> </a>
+                    
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="proyectoTitulo accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        La Bandera Alada
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="proyectoText accordion-body">
+                      <p>Infografía estatica e interáctiva</p>
+                      <a href="https://www.behance.net/gallery/125764133/La-bandera-alada">
+                        <img  class="proyectos_img" src="img/proyecto02.jpg" alt="Link de behance a proyecto numero 01 sobre la violencia de genero">
+                    </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="proyectoTitulo accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                        CooperAr
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="proyectoText accordion-body">
+                      <p>Diseño UX/UI</p>
+                      <a href="https://www.behance.net/gallery/129135411/CooperAr-UXUI">
+                        <img  class="proyectos_img" src="img/proyecto03.jpg" alt="Link de behance a proyecto numero 01 sobre la violencia de genero">
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="habilidades row">
+            <h2 class="titulosText col-12">Habilidades</h2>
+            <div class="d col-8 ">
+                <h3>Diseño</h3>
+                <ul class="d ">
+                    
+                    <li ><img class="iconHabilidades" src="svg/ilustrador-adobe.svg" alt="Icon de ilustrator"> Ilustrator</li>
+                    <li ><img class="iconHabilidades" src="svg/adobe-photoshop.svg" alt="Icon de Photoshop">Photoshop</li>
+                    <li ><img class="iconHabilidades" src="svg/after-effects.svg" alt="Icon de AfterEffect">AfterEffect</li>
+                    <li ><img class="iconHabilidades" src="svg/figma-1.svg" alt="Icon de Figma">Figma</li>
+                    <li ><img class="iconHabilidades" src="svg/rhinoceros.svg" alt="Icon de Rhino">Rhino</li>
+                    <li ><img class="iconHabilidades" src="svg/icons8-keyshot.svg" alt="Icon de Keyshot">Keyshot</li>
+                    <li ><img class="iconHabilidades" src="svg/icons8-blender-3d.svg" alt="Icon de BLender">Blender</li>
+                </ul>
+            </div>
+            <div class="w col-4">
+                <h3>Web</h3>
+                <ul class="w">
+                    <li><img class="iconHabilidades" src="svg/html.svg" alt="Icon de Html">Html </li>
+                    <li><img class="iconHabilidades" src="svg/css-file-format-symbol.svg" alt="Icon de Css">Css</li>
+                    <li><img class="iconHabilidades" src="svg/javascript.svg" alt="Icon de Js.P5">Js.P5</li>
+                    <li><img class="iconHabilidades" src="svg/icons8-python.svg" alt="Icon de Python">Python</li>
+                </ul>
+            </div>
+        </div>
+        <div class="hablemosForm row">
+            <h2 class="titulosText col-12  col-sm-6">¡Hablemos!</h2>
+            <div class="formulario col-12  col-sm-6">
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">¿Cómo es tu nombre?</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Completa tu nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">¿Cómo es tu email?</label>
+                    <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Completa tu email">
+                </div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Algo que quieras agregar</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Completa algo que quieras agregar">
+                </div>
+            </div>
+        </div>
+        <a name="contacto"></a><div class="Contacto row"> 
+            <h2 class="titulosText col-12 col-sm-6">O sentite libre de escribirme</h2>
+            <div class="contactoConteiner col-12 col-sm-6">
+                <div class="mail row">
+                    <p class="contactoSubtitulos col-12 col-sm-6">Email:</p>
+                    <p class="mailPropio col-12 col-sm-6">caflofi01@hotmail.com</p>
+                </div>
+                <ul class="redes">
+                    <a href="https://www.behance.net/camilafilippini"><li class="contactoSubtitulos">Behance<img src="svg/arrow-down-right.svg" alt="Flecha al costado"></li></a>
+                    <a href="https://ar.linkedin.com/in/camila-filippini-039aab124"><li class="contactoSubtitulos">Linkedin<img src="svg/arrow-down-right.svg" alt="Flecha al costado"></li></a>
+                    <a href="https://www.instagram.com/camifilippini__/"><li class="contactoSubtitulos">Instagram<img src="svg/arrow-down-right.svg" alt="Flecha al costado"></li></a>
+                </ul>
+            </div>
+
+        </div>
+    </main>
+    <script>
+
+      function animacion(){
+          document.getElementById('header').style.animation = 'animacion  60s infinite alternate forwards';
+      
+      
+      
+      
+      
+      }
+      
+      
+      function noanimacion(){
+          document.getElementById('header').style.animation = 'otro';
+      
+      
+      
+      
+      
+      }
+      
+      
+      </script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>  
+</body>
+</html>
